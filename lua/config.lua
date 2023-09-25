@@ -51,3 +51,5 @@ require 'nvim-treesitter.configs'.setup {
 -- Mason
 require("mason").setup()
 
+-- nvim-tree mapping
+vim.keymap.set('n', '<leader>e', vim.cmd.NvimTreeToggle, opt)

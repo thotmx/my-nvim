@@ -56,3 +56,10 @@ vim.keymap.set('n', '<leader>e', vim.cmd.NvimTreeToggle, opt)
 
 -- LazyGit key
 vim.keymap.set('n', '<leader>gg', vim.cmd.LazyGit, opt)
+
+
+
+
+-- Other options
+vim.wo.number = true
+vim.wo.relativenumber = true

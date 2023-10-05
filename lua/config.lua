@@ -48,9 +48,6 @@ require 'nvim-treesitter.configs'.setup {
   },
 }
 
--- Mason
-require("mason").setup()
-
 -- nvim-tree mapping
 vim.keymap.set('n', '<leader>e', vim.cmd.NvimTreeToggle, opt)
 
@@ -63,3 +60,5 @@ vim.keymap.set('n', '<leader>gg', vim.cmd.LazyGit, opt)
 -- Other options
 vim.wo.number = true
 vim.wo.relativenumber = true
+
+require("elixir").setup()

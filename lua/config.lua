@@ -62,3 +62,9 @@ vim.wo.number = true
 vim.wo.relativenumber = true
 
 require("elixir").setup()
+
+require('toggleterm').setup({
+  open_mapping = '<C-g>',
+  direction = 'horizontal',
+  shade_terminals = true
+})

@@ -50,6 +50,7 @@ require 'nvim-treesitter.configs'.setup {
 
 -- nvim-tree mapping
 vim.keymap.set('n', '<leader>e', vim.cmd.NvimTreeToggle, opt)
+vim.keymap.set('n', '<leader>f', vim.cmd.NvimTreeFindFile, opt)
 
 -- LazyGit key
 vim.keymap.set('n', '<leader>gg', vim.cmd.LazyGit, opt)
@@ -68,3 +69,8 @@ require('toggleterm').setup({
   direction = 'horizontal',
   shade_terminals = true
 })
+
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.expandtab = true
+vim.bo.softtabstop = 2

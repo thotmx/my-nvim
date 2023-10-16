@@ -1,4 +1,5 @@
-vim.cmd([[colorscheme everforest]])
+vim.o.background = "dark" -- or "light" for light mode -- gruvbox
+vim.cmd([[colorscheme alabaster]])
 
 -- Telescope
 local builtin = require('telescope.builtin')

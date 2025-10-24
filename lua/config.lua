@@ -1,5 +1,6 @@
-vim.o.background = "dark" -- or "light" for light mode -- gruvbox
-vim.cmd([[colorscheme gruvbox]])
+-- vim.o.background = "dark" -- or "light" for light mode -- gruvbox
+-- vim.cmd([[colorscheme oneDarkPro]])
+vim.cmd [[colorscheme moonfly]]
 
 -- Telescope
 local builtin = require('telescope.builtin')

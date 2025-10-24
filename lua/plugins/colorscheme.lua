@@ -3,7 +3,8 @@ return {  {
     lazy = true,
     opts = { style = "moon" },
 },
-{ 'rose-pine/neovim', name = 'rose-pine' },
+{ 'rose-pine/neovim', name = 'rose-pine' },{ "nxstynate/oneDarkPro.nvim", priority = 1000 },
+{ "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false, priority = 1000 },
  {
   "neanias/everforest-nvim",
   version = false,
